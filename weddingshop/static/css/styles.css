@@ -119,6 +119,7 @@ img{
     position: sticky;
     top: 30px;
     padding: 8px 0;
+    text-align: center;
 }
 .collection-nav >a {
     padding: 0 8px;
