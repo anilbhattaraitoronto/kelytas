@@ -71,6 +71,7 @@ a{
     position: sticky;
     top: 0;
     background: var(--themeLightGray);
+    z-index: 10;
 }
 .main-nav a{
     margin: 0 8px;
@@ -120,6 +121,7 @@ img{
     top: 30px;
     padding: 8px 0;
     text-align: center;
+    z-index: 10;
 }
 .collection-nav >a {
     padding: 0 8px;
@@ -187,9 +189,9 @@ img{
 .testimony{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.12);
     padding: 8px;
-    opacity: .7;
     line-height: 1.5;
     font-family: serif;
+    z-index: 0;
 }
 .testimony:nth-child(even){
     background: lightgray;
